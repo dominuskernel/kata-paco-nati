@@ -1,8 +1,12 @@
 let Game = require('./demo/kata-cells.js');
 
-describe("kata", function() {
+describe("Game of life", function() {
+  let game;
+  beforeEach(function(){
+    game = new Game();
+  });
+
   it("exist the four points", function() {
-    const game = new Game();
     expect(game.getPoints().length).toBe(4);
   });
 });

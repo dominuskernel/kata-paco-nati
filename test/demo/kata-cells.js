@@ -1,6 +1,6 @@
 'use strict';
 
-let points = [[14,20], [18,40], [50,80], [42,50]];
+let points = [[1,1],[5,5],[10,10],[20,20]]
 
 class Game {
   constructor(){
